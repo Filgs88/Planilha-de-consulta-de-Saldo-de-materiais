@@ -1,12 +1,12 @@
-Planilha de consulta de saldos de materiais usando VBA.
+# Planilha de consulta de saldos de materiais usando VBA.
 
-RESUMO:
+## RESUMO:
 Este projeto visa a obtenção de forma mais rapida e simples de saldos de materiais dentro de um almoxarifado industrial, trazendo os saldos atualizados do banco de dados oracle.
 
-OBJETIVO:
+## OBJETIVO:
 Na empresa a qual trabalho me deparei com um problema de tempo de busca de um saldo do material, a tela do sistema ERP (Enterprise Relation Programming) é muito lenta, e como nessa empresa nós possuímos mais de um almoxarifado, era necessario uma forma mais rapida e organizada para a busca do material correto para dar a retirada do material requisitado.
 
-CRIAÇÃO:
+## CRIAÇÃO:
 Para isso eu precisei acessar o banco de dados da empresa (com as devidas permissões) para fazer a coleta dos dados, fazer o tratmento necessario e guarda-lo em uma planilha. Usei uma query SQL para isso. 
 
 Primeiramente eu defini o almoxarifado que eu trabalho, peguei todos os materiais que possuiam um historico de saldo, porque não necessariamente todos os materiais do almoxarifado tiveram alguma compra, e peguei apenas colunas que me eram necessarias, para não deixar o dataset muito grande, sendo apenas 7 colunas.
@@ -43,7 +43,7 @@ Para facilitar a vida de quem vai usar, eu inclui uma pequena sub que roda ao ab
 
 Para buscar essas informações no sistema ERP da empresa é muito trabalhoso e envolve ter que abrir varias janelas, além do tempo de resposta que é muito lento devido ao excesso de dados desnecessarios que ele trás. Com essa planilha, o tempo gasto e as possibilidades de análises são muito grandes, além da praticidade que o Excel nos traz.
 
-COMO EXECUTAR:
+## COMO EXECUTAR:
 Para executar esse projeto vc precisa apenas do Microsoft Excel com as versões mais recentes, e não é necessario alguma referencia do VBA, ele faz tudo sozinho.
 
 Um outro detalhe é para segurança da empresa eu retirei os dados de acesso ao banco de dados, então a Sub de conexão não irá funcionar.
@@ -52,7 +52,7 @@ Para utilizar esse projeto basta clonar esse projeto apenas utilize o comando do
 git clone https://github.com/Filgs88/Planilha-de-consulta-de-Saldo-de-materiais.git
 e depois abrir a planilha que está na pasta.
 
-Desde já agradeço e espero que gostem desse projeto simples. Segue me Linkedin abaixo para contato.
+Desde já agradeço e espero que gostem desse projeto simples. Segue meu Linkedin abaixo para contato.
 
 Luan Filgueira Silva
 https://www.linkedin.com/in/luanfilgueirasilva/
