@@ -49,7 +49,7 @@ Para executar esse projeto vc precisa apenas do Microsoft Excel com as versões 
 Um outro detalhe é para segurança da empresa eu retirei os dados de acesso ao banco de dados, então a Sub de conexão não irá funcionar.
 
 Para utilizar esse projeto basta clonar esse projeto apenas utilize o comando do terminal: 
-git clone https://github.com/Filgs88/Planilha-de-consulta-de-Saldo-de-materiais.git
+```git clone https://github.com/Filgs88/Planilha-de-consulta-de-Saldo-de-materiais.git```
 e depois abrir a planilha que está na pasta.
 
 Desde já agradeço e espero que gostem desse projeto simples. Segue meu Linkedin abaixo para contato.
